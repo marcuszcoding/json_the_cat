@@ -24,7 +24,7 @@ describe('fetchBreedDescription', () => {
       let expectedDesc;
       if (!desc) {
         expectedDesc = null;
-      }; 
+      }
   
       // compare returned description
       assert.equal(expectedDesc, desc);
